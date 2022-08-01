@@ -43,9 +43,6 @@ const UpgradePlanCard = () => (
         <CardContent>
             <Grid container direction="column" spacing={2}>
                 <Grid item>
-                    <Typography variant="h4">Upgrade your plan</Typography>
-                </Grid>
-                <Grid item>
                     <Typography variant="subtitle2" color="grey.900" sx={{ opacity: 0.6 }}>
                         70% discount for 1 years <br />
                         subscriptions.

@@ -19,6 +19,14 @@ const other = {
             breadcrumbs: false
         },
         {
+            id: 'page-acceille',
+            title: 'Page dacceuille',
+            type: 'item',
+            url: '/page-acceille',
+            icon: icons.IconBrandChrome,
+            breadcrumbs: false
+        },
+        {
             id: 'documentation',
             title: 'Documentation',
             type: 'item',
