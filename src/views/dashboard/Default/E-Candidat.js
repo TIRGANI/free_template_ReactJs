@@ -98,7 +98,7 @@ const EarningCard = ({ isLoading }) => {
                                             sx={{
                                                 ...theme.typography.commonAvatar,
                                                 ...theme.typography.mediumAvatar,
-                                                backgroundColor: theme.palette.secondary.dark,
+                                                backgroundColor: theme.palette.secondary.light,
                                                 color: theme.palette.secondary[200],
                                                 zIndex: 1
                                             }}
@@ -144,7 +144,7 @@ const EarningCard = ({ isLoading }) => {
                                 <Grid container alignItems="center">
                                     <Grid item>
                                         <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>
-                                            Espace Candidat
+                                            Nos Offres
                                         </Typography>
                                     </Grid>
                                     <Grid item>
@@ -169,7 +169,7 @@ const EarningCard = ({ isLoading }) => {
                                         color: theme.palette.secondary[200]
                                     }}
                                 >
-                                    Connecter
+                                    +1000
                                 </Typography>
                             </Grid>
                         </Grid>

@@ -17,6 +17,7 @@
         "apexcharts": "^3.35.3",
         "formik": "^2.2.9",
         "framer-motion": "^6.3.16",
+        "google-dictionary-api": "^1.0.8",
         "material-ui-popup-state": "^4.0.1",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",

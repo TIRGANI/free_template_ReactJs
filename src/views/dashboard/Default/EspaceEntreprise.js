@@ -39,7 +39,7 @@ const CardWrapper = styled(MainCard)(({ theme }) => ({
 
 // ==============================|| DASHBOARD - TOTAL INCOME LIGHT CARD ||============================== //
 
-const TotalIncomeLightCard = ({ isLoading }) => {
+const EspaceEntreprise = ({ isLoading }) => {
     const theme = useTheme();
 
     return (
@@ -64,7 +64,7 @@ const TotalIncomeLightCard = ({ isLoading }) => {
                                         <StorefrontTwoToneIcon fontSize="inherit" />
                                     </Avatar>
                                 </ListItemAvatar>
-                                <ListItemText primary={<Typography variant="h4">Espace Candidat</Typography>} />
+                                <ListItemText primary={<Typography variant="h4">Condition générale du travaille</Typography>} />
                             </ListItem>
                         </List>
                     </Box>
@@ -74,8 +74,8 @@ const TotalIncomeLightCard = ({ isLoading }) => {
     );
 };
 
-TotalIncomeLightCard.propTypes = {
+EspaceEntreprise.propTypes = {
     isLoading: PropTypes.bool
 };
 
-export default TotalIncomeLightCard;
+export default EspaceEntreprise;
