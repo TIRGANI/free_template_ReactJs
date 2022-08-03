@@ -8,6 +8,7 @@ import Espace_entreprise from 'views/vue_entreprise_offre';
 import Espace_recruteur from 'views/espace_recruteur';
 import Entreprise_profileCandidat from 'views/vue_entreprise_profileCandidat';
 import Entreprise_offre from 'views/vue_entreprise_offre';
+import Entreprise_detailOffre from 'views/vue_entreprise_detailOffre';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -50,6 +51,10 @@ const MainRoutes = {
         {
             path: 'vue_entreprise_offre',
             element: <Entreprise_offre />
+        },
+        {
+            path: 'vue_entreprise_detailOffre',
+            element: <Entreprise_detailOffre />
         },
         {
             path: 'vue_entreprise_profileCandidat',
