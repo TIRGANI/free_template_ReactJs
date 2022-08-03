@@ -60,7 +60,9 @@ const rows = [
 ];
 
 // ==============================|| SAMPLE PAGE ||============================== //
-
+const submitForm = (e) => {
+    history.push('/vue_entreprise_offre');
+};
 //
 
 const Entreprise_profileCandidat = () => (
@@ -92,7 +94,7 @@ const Entreprise_profileCandidat = () => (
             }}
         >
             {({ errors, handleBlur, handleChange, handleSubmit, isSubmitting, touched, values }) => (
-                <form noValidate>
+                <form noValidate onSubmit={submitForm}>
                     <Grid container spacing={2} alignItems="center" justifyContent="center">
                         <Grid item xs={12}>
                             <Grid item>
